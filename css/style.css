@@ -77,9 +77,13 @@ body {
 	width:100%;
 }
 
-
 .halfrow{
 	height:50%;
+	width:100%;
+}
+
+.subnav{
+	height:25%;
 	width:100%;
 }
 
@@ -104,35 +108,43 @@ body {
 		width:100vh;
 	}
 	.smallbox{
-		height:0;
-		width:0;
+		display:none;
 	}
 	.col{
-		height:calc(25vh/2);
+		height:25vh;
 		width:50vw;
+		order:1000;
 	}
 	.nanobox{
 		height:50%;
 		width:100%;
 	}
 	.nanoboxy{
-		height:0;
-		width:0;
+		display:none;
+	}
+	.subnav{
+		height:100%;
+		width:100%;
 	}
 	.thirdbox{
 		height:100%;
 		width:50%;
 	}
 	.thirdbox_center{
-		height:0;
-		width:0;
+		display:none;
 	}
 }
+
+.blue{background-color:#0053d1;}
+
+.dark_blue{background-color:#002ce0;}
+
+.dark_red{background-color:#a30000;}
 
 .green{background-color:#31bf01;}
 
 .red{background-color:#f71b1b;}
 
-.blue{background-color:#0053d1;}
+.purple{background-color:#5042f4;}
 
 .yellow{background-color:#f4eb42;}
