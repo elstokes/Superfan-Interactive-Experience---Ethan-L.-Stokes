@@ -1,11 +1,22 @@
-/* Paste in code from your old files to save time and avoid typos! */
-
 body {
+	background-image:url(../images/sultanscurse.jpg);
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	height:100vh;
 	width:100vw;
 	display:flex;
 	flex-wrap:wrap;
 	margin:0;
+}
+
+img{
+	height:100%;
+}
+
+.header_img{
+	content: url(..images/MAST.png);
+	height:100%
 }
 
 .center-horizontal{
@@ -31,14 +42,14 @@ body {
 	flex-wrap:wrap;
 }
 
-
 .box{
 	height:60%;
 	width:100%;
 }
 
+
 .smallbox{
-	height:20%;
+	height:40%;
 	width:100%;
 }
 
@@ -71,7 +82,6 @@ body {
 	width:calc(100%/3);
 }
 
-
 .nav{
 	height:50%;
 	width:100%;
@@ -87,7 +97,15 @@ body {
 	width:100%;
 }
 
-@media screen and (max-width:1300px){
+/*responsive breakpoints*/
+
+@media screen and (max-width:1109px){
+	body{
+		background-image:url(../images/MAST.png);
+	}
+	.centerpiece{
+		display:none;
+	}
 	.minibox{
 		height:100%;
 		width:100%;
@@ -95,6 +113,9 @@ body {
 }
 
 @media screen and (max-width:800px){
+	body{
+		background-image:url(../images/blood-mountain.jpg);
+	}
 	.box{
 		height:100%;
 		width:100%;
@@ -134,17 +155,3 @@ body {
 		display:none;
 	}
 }
-
-.blue{background-color:#0053d1;}
-
-.dark_blue{background-color:#002ce0;}
-
-.dark_red{background-color:#a30000;}
-
-.green{background-color:#31bf01;}
-
-.red{background-color:#f71b1b;}
-
-.purple{background-color:#5042f4;}
-
-.yellow{background-color:#f4eb42;}
