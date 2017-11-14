@@ -1,5 +1,7 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
 body {
-	background-image:url(../images/sultanscurse.jpg);
+	background-image:url(../images/sultanscurse.png);
 	background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,9 +16,10 @@ img{
 	height:100%;
 }
 
-.header_img{
-	content: url(..images/MAST.png);
-	height:100%
+.background_img{
+	background-image:url(../images/MAST_CTSStd_intray.png);
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .center-horizontal{
@@ -155,3 +158,18 @@ img{
 		display:none;
 	}
 }
+
+/*
+.blue{background-color:#0053d1;}
+
+.dark_blue{background-color:#002ce0;}
+
+.dark_red{background-color:#a30000;}
+
+.green{background-color:#31bf01;}
+
+.red{background-color:#f71b1b;}
+
+.purple{background-color:#5042f4;}
+
+.yellow{background-color:#f4eb42;}
