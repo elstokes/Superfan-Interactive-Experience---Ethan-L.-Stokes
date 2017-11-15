@@ -104,7 +104,7 @@ img{
 
 @media screen and (max-width:1100px){
 	body{
-		background-image:url(../images/blood-mountain.jpg);
+		background-image:url(../images/blood_mountain.jpg);
 	}
 	.box{
 		height:100%;
