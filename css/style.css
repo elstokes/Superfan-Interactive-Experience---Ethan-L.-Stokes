@@ -3,8 +3,8 @@
 body {
 	background-image:url(../images/sultanscurse.png);
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 	height:100vh;
 	width:100vw;
 	display:flex;
@@ -104,7 +104,7 @@ img{
 
 @media screen and (max-width:1100px){
 	body{
-		background-image:url(../images/MAST_CTSStd_intray.jpg);
+		background-image:url(../images/blood-mountain.jpg);
 	}
 	.box{
 		height:100%;
@@ -126,6 +126,9 @@ img{
 		width:100vw
 	}
 	.col{
+		display:none;
+	}
+	.logo{
 		display:none;
 	}
 	.nanobox{
