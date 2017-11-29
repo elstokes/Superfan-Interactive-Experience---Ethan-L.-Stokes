@@ -3,8 +3,8 @@
 body {
 	background-image:url(../images/sultanscurse.png);
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 	height:100vh;
 	width:100vw;
 	display:flex;
@@ -99,7 +99,7 @@ img{
 .background_img{
 	background-image:url(../images/MAST_CTSStd_intray.png);
 	background-size: 100% 100%;
-    background-repeat: no-repeat;
+    	background-repeat: no-repeat;
 }
 
 .centerpiece{
