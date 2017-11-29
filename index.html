@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-
 	<head>
 		<meta charset="UTF-8">
+		<link href="images/centerpiece.png" rel="icon" type="image/x-icon" />
 		<title>Mastodon: An Interactive Experience</title>
 		<link rel="stylesheet" href="css/style.css">
 	</head>
-	<body>
+	<body  class="body" id="background">
+		<audio src="Iron-Tusk.mp3" autoplay>
+		Your browser does not support the <code>audio</code> element.
+		</audio>
 		<div class="col">
 			<div class="nav">
 				<div class="subnav"></div>
@@ -21,23 +24,23 @@
 				<div class="minibox">
 					<div class="nanobox">
 						<div class="thirdbox center-horizontal center-vertical background_img">
-							<img class="brent" src=""/>
+							<img class="brent" onclick="brent(this)" src="" id="brent"/>
 						</div>
 						<div class="thirdbox_center"></div>
 						<div class="thirdbox center-horizontal center-vertical background_img">
-							<img class="bill" src=""/>
+							<img class="bill" onclick="bill(this)" src="" id="bill"/>
 						</div>
 					</div>
 					<div class="nanoboxy center-vertical center-horizontal">
-						<img class="centerpiece" src=""/>
+						<img class="centerpiece" onclick="center(this)" src="" id="button"/>
 					</div>
 					<div class="nanobox">
 						<div class="thirdbox center-horizontal center-vertical background_img">
-							<img class="brann" src=""/>
+							<img class="brann" onclick="brann(this)" src="" id="brann"/>
 						</div>
 						<div class="thirdbox_center"></div>
 						<div class="thirdbox center-horizontal center-vertical background_img">
-							<img class="troy" src=""/>
+							<img class="troy" onclick="troy(this)" src="" id="troy"/>
 						</div>
 					</div>
 				</div>
@@ -50,9 +53,10 @@
 			<div class="nav">
 				<div class="subnav"></div>
 			</div>
-			<div class="nav">
+			<div class="nav purple">
 				<div class="subnav"></div>
 			</div>
 		</div>
+		<script src="script.js"></script>
 	</body>
 </html>
