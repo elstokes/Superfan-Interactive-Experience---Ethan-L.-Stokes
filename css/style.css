@@ -1,8 +1,10 @@
+/* Paste in code from your old files to save time and avoid typos! */
+
 body {
 	background-image:url(../images/sultanscurse.png);
 	background-position: center;
-    	background-repeat: no-repeat;
-   	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 	height:100vh;
 	width:100vw;
 	display:flex;
@@ -100,6 +102,10 @@ img{
     background-repeat: no-repeat;
 }
 
+.centerpiece{
+	content:url(../images/centerpiece.png);
+}
+
 .bill{
 	content:url(../images/billkelliher.png);
 }
@@ -116,23 +122,36 @@ img{
 	content:url(../images/maxresdefault.png);
 }
 
-.bill:hover{
+.bill_on{
 	content:url(../images/Mastodon-2014.png);
 }
 
-.brann:hover{
-	content:url(../images/intense.PNG);
+.brann_on{
+	content:url(../images/intense.png);
 }
 
-.brent:hover{
+.brent_on{
 	content:url(../images/3.png);
 }
 
-.troy:hover{
+.troy_on{
 	content:url(../images/troy_stare.png);
 }
 
 /*responsive breakpoint*/
+
+/*@media screen and (max-width:1300px){
+	body{
+		background-image:url(../images/MAST.png);
+	}
+	.centerpiece{
+		display:none;
+	}
+	.minibox{
+		height:100%;
+		width:100%;
+	}
+}*/
 
 @media screen and (max-width:1100px){
 	body{
