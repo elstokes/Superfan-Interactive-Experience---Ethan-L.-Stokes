@@ -3,8 +3,8 @@
 body {
 	background-image:url(../images/sultanscurse.png);
 	background-position: center;
-    	background-repeat: no-repeat;
-    	background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 	height:100vh;
 	width:100vw;
 	display:flex;
@@ -99,43 +99,124 @@ img{
 .background_img{
 	background-image:url(../images/MAST_CTSStd_intray.png);
 	background-size: 100% 100%;
-    	background-repeat: no-repeat;
+    background-repeat: no-repeat;
 }
 
 .centerpiece{
 	content:url(../images/centerpiece.png);
 }
 
+.centerpiece:hover{
+	content:url(../images/centerpiece_hover.png);
+	cursor: pointer;
+}
+
+.centerpiece:active{
+	transform: scale(0.95, 0.95);
+}
+
 .bill{
 	content:url(../images/billkelliher.png);
+}
+
+.bill:hover{
+	content:url(../images/billkelliher_hover.png);
+	cursor: pointer;
+}
+
+.bill:active{
+	transform: scale(0.95, 0.95);
 }
 
 .brann{
 	content:url(../images/brann-dailor-photo-credit-jimmy-hubbard-mastodon.png);
 }
 
+.brann:hover{
+	content:url(../images/brann-dailor-photo-credit-jimmy-hubbard-mastodon_hover.png);
+	cursor: pointer;
+}
+
+.brann:active{
+	transform: scale(0.95, 0.95);
+}
+
 .brent{
 	content:url(../images/hqdefault.png);
+}
+
+.brent:hover{
+	content:url(../images/hqdefault_hover.png);
+	cursor: pointer;
+}
+
+.brent:active{
+	transform: scale(0.95, 0.95);
 }
 
 .troy{
 	content:url(../images/maxresdefault.png);
 }
 
+.troy:hover{
+	content:url(../images/maxresdefault_hover.png);
+	cursor: pointer;
+}
+
+.troy:active{
+	transform: scale(0.95, 0.95);
+}
+
 .bill_on{
 	content:url(../images/Mastodon-2014.png);
 }
 
+.bill_on:hover{
+	content:url(../images/Mastodon-2014_hover.png);
+	cursor: pointer;
+}
+
+.bill_on:active{
+	transform: scale(0.95, 0.95);
+}
+
 .brann_on{
-	content:url(../images/intense.PNG);
+	content:url(../images/intense.png);
+}
+
+.brann_on:hover{
+	content:url(../images/intense_hover.png);
+	cursor: pointer;
+}
+
+.brann_on:active{
+	transform: scale(0.95, 0.95);
 }
 
 .brent_on{
 	content:url(../images/3.png);
 }
 
+.brent_on:hover{
+	content:url(../images/3_hover.png);
+	cursor: pointer;
+}
+
+.brent_on:active{
+	transform: scale(0.95, 0.95);
+}
+
 .troy_on{
 	content:url(../images/troy_stare.png);
+}
+
+.troy_on:hover{
+	content:url(../images/troy_stare_hover.png);
+	cursor: pointer;
+}
+
+.troy_on:active{
+	transform: scale(0.95, 0.95);
 }
 
 /*responsive breakpoint*/
