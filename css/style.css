@@ -12,6 +12,29 @@ body {
 	margin:0;
 }
 
+body::after{
+	display:none;
+	content:
+		url(../images/centerpiece.png) 
+		url(../images/centerpiece_hover.png)
+		url(../images/billkelliher.png)
+		url(../images/billkelliher_hover.png)
+		url(../images/brann-dailor-photo-credit-jimmy-hubbard-mastodon.png)
+		url(../images/brann-dailor-photo-credit-jimmy-hubbard-mastodon_hover.png)
+		url(../images/maxresdefault.png)
+		url(../images/maxresdefault_hover.png)
+		url(../images/hqdefault.png)
+		url(../images/hqdefault_hover.png)
+		url(../images/Mastodon-2014.png)
+		url(../images/Mastodon-2014_hover.png)
+		url(../images/intense.png)
+		url(../images/intense_hover.png)
+		url(../images/3.png)
+		url(../images/3_hover.png)
+		url(../images/troy_stare.png)
+		url(../images/troy_stare_hover.png);
+}
+
 img{
 	height:100%;
 }
@@ -49,6 +72,7 @@ img{
 	height:40%;
 	width:100%;
 }
+
 
 .minibox{
 	height:100%;
@@ -181,7 +205,7 @@ img{
 }
 
 .brann_on{
-	content:url(../images/intense.PNG);
+	content:url(../images/intense.png);
 }
 
 .brann_on:hover{
@@ -254,13 +278,9 @@ img{
 		width:100vw;
 	}
 	.smallbox{
-		height:25vh;
-		width:100vw
+		display:none
 	}
 	.col{
-		display:none;
-	}
-	.logo{
 		display:none;
 	}
 	.nanobox{
@@ -280,6 +300,21 @@ img{
 	.thirdbox_center{
 		display:none;
 	}
+}
+
+@media screen and (max-width:460px){
+	.col_center{
+		height:100vh;
+	}
+	.nanobox{
+		display:block;
+		height:50vh;
+		width:100vw
+	}
+	.thirdbox {
+		height: 50%;
+		width: 100%;
+}
 }
 
 /*
