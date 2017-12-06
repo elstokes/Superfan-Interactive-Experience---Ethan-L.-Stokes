@@ -12,18 +12,22 @@
 function bill(elem){
 	elem.classList.toggle("bill_on");
 	document.getElementById("bill").classList.toggle("bill");
+	document.getElementById("bill_sound").play();
 }
 function brann(elem){
 	elem.classList.toggle("brann_on");
 	document.getElementById("brann").classList.toggle("brann");
+	document.getElementById("brann_sound").play();
 }
 function brent(elem){
 	elem.classList.toggle("brent_on");
 	document.getElementById("brent").classList.toggle("brent");
+	document.getElementById("brent_sound").play();
 }
 function troy(elem){
 	elem.classList.toggle("troy_on");
 	document.getElementById("troy").classList.toggle("troy");
+	document.getElementById("troy_sound").play();
 }
 
 //cool features
@@ -37,4 +41,6 @@ function center(elem){
 	document.getElementById("brann").classList.add("brann");
 	document.getElementById("brent").classList.add("brent");
 	document.getElementById("troy").classList.add("troy");
+	
+	document.getElementById("sample").pause();
 }
