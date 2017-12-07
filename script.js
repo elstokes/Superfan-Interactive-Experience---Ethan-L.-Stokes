@@ -30,7 +30,7 @@ function troy(elem){
 	document.getElementById("troy_sound").play();
 }
 
-//cool features
+//additional features
 function center(elem){
 	document.getElementById("bill").classList.remove("bill_on");
 	document.getElementById("brann").classList.remove("brann_on");
@@ -41,6 +41,17 @@ function center(elem){
 	document.getElementById("brann").classList.add("brann");
 	document.getElementById("brent").classList.add("brent");
 	document.getElementById("troy").classList.add("troy");
-	
+}
+
+function pause(elem){
 	document.getElementById("sample").pause();
+}
+
+function play(elem){
+	document.getElementById("sample").play();
+}
+
+function replay(elem){
+	document.getElementById("sample").currentTime = 0;
+//https://stackoverflow.com/questions/17636310/play-audio-and-restart-it-onclick
 }
