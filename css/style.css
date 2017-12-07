@@ -27,7 +27,7 @@ body::after{
 		url(../images/hqdefault_hover.png)
 		url(../images/Mastodon-2014.png)
 		url(../images/Mastodon-2014_hover.png)
-		url(../images/intense.png)
+		url(../images/intense.PNG)
 		url(../images/intense_hover.png)
 		url(../images/3.png)
 		url(../images/3_hover.png)
@@ -73,7 +73,6 @@ img{
 	width:100%;
 }
 
-
 .minibox{
 	height:100%;
 	width:70%;
@@ -91,6 +90,46 @@ img{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
+}
+
+.pause{
+	height:100%;
+	content:url(../images/pause.png);
+}
+
+.pause:hover{
+	cursor: pointer;
+}
+
+.pause:active{
+	transform: scale(0.95, 0.95);
+}
+
+.play{
+	height:100%;
+	content:url(../images/play.png);
+}
+
+.play:hover{
+	cursor: pointer;
+}
+
+.play:active{
+	transform: scale(0.95, 0.95);
+}
+
+.replay{	
+	max-height:100%;
+	max-width:100%;
+	content:url(../images/replay.png)
+}
+
+.replay:hover{
+	cursor: pointer;
+}
+
+.replay:active{
+	transform: scale(0.95, 0.95);
 }
 
 .thirdbox{
@@ -114,8 +153,13 @@ img{
 }
 
 .subnav{
-	height:25%;
+	height:calc(100%/3);
 	width:100%;
+}
+
+.subnavr{
+	height:100%;
+	width:50%;
 }
 
 /*images*/
@@ -242,6 +286,8 @@ img{
 .troy_on:active{
 	transform: scale(0.95, 0.95);
 }
+
+
 
 /*responsive breakpoints*/
 
