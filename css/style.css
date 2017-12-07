@@ -205,7 +205,7 @@ img{
 }
 
 .brann_on{
-	content:url(../images/intense.png);
+	content:url(../images/intense.PNG);
 }
 
 .brann_on:hover{
@@ -243,20 +243,7 @@ img{
 	transform: scale(0.95, 0.95);
 }
 
-/*responsive breakpoint*/
-
-/*@media screen and (max-width:1300px){
-	body{
-		background-image:url(../images/MAST.png);
-	}
-	.centerpiece{
-		display:none;
-	}
-	.minibox{
-		height:100%;
-		width:100%;
-	}
-}*/
+/*responsive breakpoints*/
 
 @media screen and (max-width:1100px){
 	body{
