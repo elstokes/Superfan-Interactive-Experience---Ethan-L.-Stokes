@@ -3,8 +3,8 @@
 body {
 	background-image:url(../images/sultanscurse.png);
 	background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 	height:100vh;
 	width:100vw;
 	display:flex;
@@ -14,7 +14,7 @@ body {
 
 body::after{
 	display:none;
-	content:
+	content: /*This loads all the images used for :hover effects and class toggling with JavaScript. This allows the transitions between images to be smooth and seamless.*/
 		url(../images/centerpiece.png) 
 		url(../images/centerpiece_hover.png)
 		url(../images/billkelliher.png)
@@ -111,10 +111,10 @@ img{
 }
 
 .play:hover{
-	cursor: pointer;
+	cursor: pointer; /*Taken from Eric's stanley_cup_cheer example*/
 }
 
-.play:active{
+.play:active{ /*Taken from Eric's stanley_cup_cheer example*/
 	transform: scale(0.95, 0.95);
 }
 
@@ -192,6 +192,18 @@ img{
 	cursor: pointer;
 }
 
+.bill_on{
+	content:url(../images/Mastodon-2014.png);
+}
+
+.bill_on:hover{
+	content:url(../images/Mastodon-2014_hover.png);
+	cursor: pointer;
+}
+
+.bill_on:active{
+	transform: scale(0.95, 0.95);
+}
 .bill:active{
 	transform: scale(0.95, 0.95);
 }
@@ -209,45 +221,6 @@ img{
 	transform: scale(0.95, 0.95);
 }
 
-.brent{
-	content:url(../images/hqdefault.png);
-}
-
-.brent:hover{
-	content:url(../images/hqdefault_hover.png);
-	cursor: pointer;
-}
-
-.brent:active{
-	transform: scale(0.95, 0.95);
-}
-
-.troy{
-	content:url(../images/maxresdefault.png);
-}
-
-.troy:hover{
-	content:url(../images/maxresdefault_hover.png);
-	cursor: pointer;
-}
-
-.troy:active{
-	transform: scale(0.95, 0.95);
-}
-
-.bill_on{
-	content:url(../images/Mastodon-2014.png);
-}
-
-.bill_on:hover{
-	content:url(../images/Mastodon-2014_hover.png);
-	cursor: pointer;
-}
-
-.bill_on:active{
-	transform: scale(0.95, 0.95);
-}
-
 .brann_on{
 	content:url(../images/intense.PNG);
 }
@@ -261,6 +234,19 @@ img{
 	transform: scale(0.95, 0.95);
 }
 
+.brent{
+	content:url(../images/hqdefault.png);
+}
+
+.brent:hover{
+	content:url(../images/hqdefault_hover.png);
+	cursor: pointer;
+}
+
+.brent:active{
+	transform: scale(0.95, 0.95);
+}
+
 .brent_on{
 	content:url(../images/3.png);
 }
@@ -271,6 +257,19 @@ img{
 }
 
 .brent_on:active{
+	transform: scale(0.95, 0.95);
+}
+
+.troy{
+	content:url(../images/maxresdefault.png);
+}
+
+.troy:hover{
+	content:url(../images/maxresdefault_hover.png);
+	cursor: pointer;
+}
+
+.troy:active{
 	transform: scale(0.95, 0.95);
 }
 
@@ -349,18 +348,3 @@ img{
 		width: 100%;
 }
 }
-
-/*
-.blue{background-color:#0053d1;}
-
-.dark_blue{background-color:#002ce0;}
-
-.dark_red{background-color:#a30000;}
-
-.green{background-color:#31bf01;}
-
-.red{background-color:#f71b1b;}
-
-.purple{background-color:#5042f4;}
-
-.yellow{background-color:#f4eb42;}
