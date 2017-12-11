@@ -37,6 +37,11 @@ img{
 	height:100%;
 }
 
+.box{
+	height:60%;
+	width:100%;
+}
+
 .center-horizontal{
 	display: flex;
 	align-items:center;
@@ -60,17 +65,6 @@ img{
 	flex-wrap:wrap;
 }
 
-.box{
-	height:60%;
-	width:100%;
-}
-
-
-.smallbox{
-	height:40%;
-	width:100%;
-}
-
 .minibox{
 	height:100%;
 	width:70%;
@@ -88,6 +82,11 @@ img{
 	width:100%;
 	display:flex;
 	flex-wrap:wrap;
+}
+
+.nav{
+	height:50%;
+	width:100%;
 }
 
 .pause{
@@ -130,6 +129,16 @@ img{
 	transform: scale(0.95, 0.95);
 }
 
+.smallbox{
+	height:40%;
+	width:100%;
+}
+
+.subnav{
+	height:calc(100%/3);
+	width:100%;
+}
+
 .thirdbox{
 	height:100%;
 	width:calc(100%/3);
@@ -140,25 +149,6 @@ img{
 	width:calc(100%/3);
 }
 
-.nav{
-	height:50%;
-	width:100%;
-}
-
-.halfrow{
-	height:50%;
-	width:100%;
-}
-
-.subnav{
-	height:calc(100%/3);
-	width:100%;
-}
-
-.subnavr{
-	height:100%;
-	width:50%;
-}
 
 /*images*/
 
@@ -181,6 +171,7 @@ img{
 	transform: scale(0.95, 0.95);
 }
 
+/*The band*/
 .bill{
 	content:url(../images/billkelliher.png);
 }
@@ -188,6 +179,10 @@ img{
 .bill:hover{
 	content:url(../images/billkelliher_hover.png);
 	cursor: pointer;
+}
+
+.bill:active{
+	transform: scale(0.95, 0.95);
 }
 
 .bill_on{
@@ -200,9 +195,6 @@ img{
 }
 
 .bill_on:active{
-	transform: scale(0.95, 0.95);
-}
-.bill:active{
 	transform: scale(0.95, 0.95);
 }
 
@@ -283,8 +275,6 @@ img{
 .troy_on:active{
 	transform: scale(0.95, 0.95);
 }
-
-
 
 /*responsive breakpoints*/
 
